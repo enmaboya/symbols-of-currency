@@ -6,8 +6,10 @@ module.exports = {
     output: {
         filename: 'symbols-of-currency.js',
         path: path.resolve(__dirname, 'dist'),
+        clean: true,
+        library: 'symbols-of-currency',
         libraryTarget: 'umd',
-        clean: true
+        umdNamedDefine: true
     },
     devtool: 'inline-source-map',
     module: {

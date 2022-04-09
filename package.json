@@ -6,7 +6,8 @@
     "types": "dist/symbols-of-currency.d.ts",
     "module": "dist/symbols-of-currency.js",
     "scripts": {
-        "dev": "webpack --env development --watch",
+        "dev": "webpack --env development",
+        "watch": "webpack --env development --watch",
         "build": "webpack --env production"
     },
     "keywords": ["webpack", "currency", "currency-symbols"],

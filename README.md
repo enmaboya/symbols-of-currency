@@ -10,7 +10,7 @@ npm i symbols-of-currency
 
 ## Using:
 
-```
+```js
 import { getSymbolByCode, getSymbolByCountry, getSymbolByCurrencyName } from 'symbols-of-currency';
 
 <div class="app">

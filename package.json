@@ -1,7 +1,7 @@
 {
     "name": "symbols-of-currency",
     "version": "1.0.0",
-    "description": "",
+    "description": "Getting the currency symbol by currency code, country name or currency name",
     "main": "dist/symbols-of-currency.js",
     "types": "dist/symbols-of-currency.d.ts",
     "module": "dist/symbols-of-currency.js",
@@ -9,8 +9,8 @@
         "dev": "webpack --env development --watch",
         "build": "webpack --env production"
     },
-    "keywords": [],
-    "author": "",
+    "keywords": ["webpack", "currency", "currency-symbols"],
+    "author": "Vitaly Dubov",
     "license": "ISC",
     "devDependencies": {
         "babel-loader": "^8.2.4",

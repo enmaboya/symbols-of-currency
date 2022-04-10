@@ -7,7 +7,7 @@ module.exports = {
         filename: 'symbols-of-currency.js',
         path: path.resolve(__dirname, 'dist'),
         clean: true,
-        library: 'currency',
+        library: 'soc',
         libraryTarget: 'umd',
         umdNamedDefine: true
     },

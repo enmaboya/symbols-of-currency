@@ -1,6 +1,6 @@
 {
     "name": "symbols-of-currency",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Getting the currency symbol by currency code, country name or currency name",
     "main": "dist/symbols-of-currency.js",
     "types": "dist/symbols-of-currency.d.ts",

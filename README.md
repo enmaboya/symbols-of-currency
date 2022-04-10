@@ -25,3 +25,13 @@ import { getSymbolByCode, getSymbolByCountry, getSymbolByCurrencyName } from 'sy
     </div>
 </div>
 ```
+
+## Using via CDN:
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/enmaboya/symbols-of-currency@latest/dist/symbols-of-currency.js"></script>
+
+<script>
+    console.log(soc.getSymbolByCode('usd'))
+</script>
+```
